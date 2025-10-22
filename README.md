@@ -1,4 +1,4 @@
-# Selim Farci , Master's Student in computer science and data engineering
+# Selim Farci , Master's Student in Computer Science | AI & Data Engineering
 
 Welcome to my online portfolio!  
 I am passionate about data analysis, visualization, and building data-driven solutions. My goal is to turn raw data into actionable insights to support informed business decisions.
