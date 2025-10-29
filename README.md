@@ -49,21 +49,25 @@ French (Native), Arabic (Native), English (B2)
 
 ## 🚀 Projects
 
-### Freedom to Eat — Web App Full-Stack
-Personal project: food journaling platform with NLP-based analytics. Built with FastAPI, PostgreSQL, React + TypeScript, JWT authentication, and deployed on AWS.  
+### Freedom to Eat — Web App Full-Stack [GitHub](https://github.com/SelimFarci/freedom-to-eat-dev)  
+Personal project: food journaling platform with NLP-based analytics. Helps users track meals, emotions, mental state, and eating habits. Backend built with FastAPI + PostgreSQL, frontend in React + TypeScript, JWT authentication, deployed on AWS.  
 **Skills:** FastAPI, PostgreSQL, React, TypeScript, JWT, AWS, NLP  
 
-### Precision Agriculture AI
-Dual weed detection pipeline: YOLOv8 (99.5% mAP, 30–60 FPS) and custom CNN (97% accuracy). Deployed on drones (Raspberry Pi) for smart farming applications.  
-**Skills:** Python, YOLOv8, CNN, Computer Vision, Deep Learning, Data Augmentation, Raspberry Pi  
+### Shop Sales Report Power BI [GitHub](https://github.com/SelimFarci/Shop_sales_Report_PowerBI)  
+Dashboard for visualizing store sales by category. Uses Power BI to process and present sales data.  
+**Skills:** Power BI, Data Visualization, CSV Processing  
 
-### Gyrostabilized Platform (S9)
-Mobile system stabilization using brushless motors, IMU (gyroscope), PID algorithm, STM32 NUCLEO. Includes IMU data processing, electronic CAD, hardware modeling, and software programming in C.  
-**Skills:** Embedded Systems, C Programming, PID Control, IMU Processing, Electronics CAD  
+### Egyptian Hieroglyphs Classification [GitHub](https://github.com/SelimFarci/Hieroglyphs-Classification-main)  
+Academic project for classifying Egyptian hieroglyphs using Deep Learning. Tested multiple architectures (CNN, ResNet, Inception, Vision Transformer) with fine-tuning and training from scratch on an annotated dataset.  
+**Skills:** Python, PyTorch, Computer Vision, Deep Learning, Data Augmentation  
 
-### Hackathon - Urban Battery Monitoring
-Developed a battery monitoring system for urban signaling. Performed data analysis using Python (Pandas, NumPy, Seaborn, Matplotlib).  
-**Skills:** Python, Pandas, NumPy, Seaborn, Matplotlib, Data Analysis  
+### Supply Chain Management System [GitHub](https://github.com/SelimFarci/Supply-Chain-management-system)  
+Web application for inventory, orders, and logistics management in a supply chain. Built with PHP and MySQL.  
+**Skills:** PHP, MySQL, Web Application, Inventory & Order Management  
+
+### Camera Stabilizer Project [GitHub](https://github.com/SelimFarci/Stabilisateur_de_camera)  
+Final-year project: gyrostabilized camera platform with brushless motors, IMU, PID algorithm, and STM32 NUCLEO board. Includes electronic design and embedded programming.  
+**Skills:** Embedded Systems, C, PID Control, IMU Processing, Electronics CAD  
 
 ---
 
