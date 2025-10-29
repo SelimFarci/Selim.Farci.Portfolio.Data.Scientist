@@ -5,6 +5,8 @@ I am passionate about data analysis, visualization, and building data-driven sol
 
 ---
 
+
+
 ## 👨‍💻 About Me
 
 - Skills: Python (Pandas, NumPy, Seaborn, Matplotlib), SQL, Excel, Power BI, Git/GitHub, LaTeX, Electronic CAD (Altium).  
