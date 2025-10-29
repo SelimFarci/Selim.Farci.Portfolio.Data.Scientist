@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selim Farci | Data & Cloud Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(180deg, #1e293b, #0f172a);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5e1;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #1e293b;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      color: #f1f5f9;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #38bdf8;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .project {
+      background-color: #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .project:hover {
+      background-color: #334155;
+      transform: translateY(-3px);
+    }
+
+    .project h3 {
+      color: #f8fafc;
+      margin-top: 0;
+    }
+
+    .project a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 10px;
+    }
+
+    .skill {
+      background: #1e293b;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #1e293b;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+
+    a.social {
+      color: #38bdf8;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Selim Farci</h1>
+    <p>Étudiant ingénieur en informatique — Data | Cloud | IA | DevOps</p>
+  </header>
+
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>À propos</h2>
+    <p>
+      Étudiant en dernière année à l’ENSEA, passionné par la data science, le cloud computing et l’intelligence artificielle.
+      Mon objectif : concevoir des solutions qui transforment les données en décisions concrètes, via Python, SQL, Power BI et AWS.
+      Je prépare actuellement la certification AWS Solutions Architect Associate.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projets</h2>
+
+    <div class="project">
+      <h3>🍕 Pizza Sales Analysis</h3>
+      <p>Analyse complète des ventes d'une pizzeria avec SQL, Python et Power BI. Extraction de KPIs, tendances temporelles et création de dashboards marketing.</p>
+      <p><b>Tech :</b> Python, SQL, Power BI, Excel</p>
+      <a href="https://github.com/SelimFarci" target="_blank">Voir sur GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>🌾 Agriculture de Précision</h3>
+      <p>Détection de mauvaises herbes via YOLOv8 et CNN, déployée sur drone Raspberry Pi. Projet IA en vision par ordinateur.</p>
+      <p><b>Tech :</b> PyTorch, OpenCV, Python, Raspberry Pi</p>
+    </div>
+
+    <div class="project">
+      <h3>🍽️ Freedom to Eat (Web App)</h3>
+      <p>Application web full-stack pour analyser des journaux alimentaires via NLP. API FastAPI et interface React hébergée sur AWS.</p>
+      <p><b>Tech :</b> FastAPI, React, PostgreSQL, AWS, Docker</p>
+      <a href="https://github.com/SelimFarci" target="_blank">Voir sur GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>⚙️ Plateforme Gyrostabilisée</h3>
+      <p>Analyse et acquisition de données IMU pour stabilisation de plateforme mobile. Implémentation hardware et traitement du signal.</p>
+      <p><b>Tech :</b> C++, Python, Altium, LTspice</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Compétences</h2>
+    <div class="skills">
+      <div class="skill">Python / Pandas / NumPy</div>
+      <div class="skill">Power BI / Excel</div>
+      <div class="skill">SQL / PostgreSQL / MongoDB</div>
+      <div class="skill">PyTorch / TensorFlow / Scikit-Learn</div>
+      <div class="skill">AWS / Docker / Kubernetes</div>
+      <div class="skill">FastAPI / React / TypeScript</div>
+      <div class="skill">Git / CI-CD / DevOps</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📍 Lille, France</p>
+    <p>📧 <a href="mailto:selim.farci.pro@hotmail.com" class="social">selim.farci.pro@hotmail.com</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/selim-farci-684090210/" class="social">LinkedIn</a> |
+      <a href="https://github.com/SelimFarci" class="social">GitHub</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2025 Selim Farci — Portfolio Data & Cloud Engineer
+  </footer>
+
+</body>
+</html>
